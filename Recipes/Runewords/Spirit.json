@@ -1,0 +1,8 @@
+{
+    "Name": "Spirit",
+    "Runeword": "True",
+    "Runes": ["Tal", "Thul", "Ort", "Amn"],
+    "Base": ["Shield", "Sword"],
+    "Sockets": 4,
+    "Required Level": 25
+}
