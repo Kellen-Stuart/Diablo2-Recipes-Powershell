@@ -1,4 +1,4 @@
-function Get-Recipe
+function Get-DiabloRecipe
 {
     param(
         [Parameter(Mandatory=$true)]
@@ -22,7 +22,7 @@ function Get-Recipe
 
 }
 
-function Get-RecipeName
+function Get-DiabloRecipeName
 {
     param(
         [Parameter(Mandatory=$true)]
