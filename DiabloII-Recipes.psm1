@@ -12,7 +12,7 @@ function Get-DiabloRecipe
 
     foreach($recipeJsonFile in $recipeJsonFiles)
     {
-        $recipeName = Get-RecipeName $recipeJsonFile
+        $recipeName = Get-DiabloRecipeName $recipeJsonFile
         if($recipeName.ToLower().Trim().Contains($Name.ToLower().Trim()))
         {
             $recipeObject = Get-Content $recipeJsonFile.FullName | Out-String | ConvertFrom-Json

@@ -1,0 +1,8 @@
+{
+    "Name": "Lore",
+    "Runeword": "True",
+    "Runes": ["Ort", "Sol"],
+    "Base": ["Headgear"],
+    "Sockets": 2,
+    "Required Level": 27
+}
